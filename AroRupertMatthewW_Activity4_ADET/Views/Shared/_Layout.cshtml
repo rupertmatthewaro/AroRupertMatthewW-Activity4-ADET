@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rupert Matthew Aro — Portfolio</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <nav>
+        <a class="nav-logo" href="#home">
+            <img class="nav-logo-img" src="~/images/profile.jpg" alt="Rupert Matthew W. Aro" />
+        </a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    @RenderBody()
+
+    <footer>
+        <p>&copy; 2026 Rupert Matthew Aro. All rights reserved.</p>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

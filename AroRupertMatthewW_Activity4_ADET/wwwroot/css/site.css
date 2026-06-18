@@ -443,6 +443,20 @@ section {
         fill: #000;
     }
 
+.btn-muted {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 18px;
+    border: 1px solid var(--text-secondary);
+    color: var(--text-secondary);
+    border-radius: 7px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: default;
+    opacity: 0.6;
+}
+
 /* CONTACT */
 .contact-intro {
     color: var(--text-secondary);
